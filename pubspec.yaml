@@ -1,0 +1,42 @@
+name: bettadrive
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.3 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  google_fonts: ^3.0.1
+  rflutter_alert: ^2.0.4
+  url_launcher: ^6.1.4
+  fl_chart: ^0.55.2
+  charts_flutter_new: ^0.12.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - images/
+
+  fonts:
+    - family: Quicksand-Regular
+      fonts:
+        - asset: fonts/Quicksand-Regular.ttf
+
+    - family: Quicksand-SemiBold
+      fonts:
+        - asset: fonts/Quicksand-SemiBold.ttf
